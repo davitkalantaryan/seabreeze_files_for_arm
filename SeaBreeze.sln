@@ -4,13 +4,19 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SeaBreeze", "VSProj\SeaBreeze.vcxproj", "{F6857325-8FAB-49A1-987A-E045706DE551}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SeeBreezeTest", "..\..\..\..\..\..\raspberry\prj\test\SeeBreezeTest_vs15\SeeBreezeTest.vcxproj", "{A8BA27BA-7AB9-4B70-8C14-136E34587895}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SeeBreezeTest", "SeeBreezeTest\SeeBreezeTest.vcxproj", "{A8BA27BA-7AB9-4B70-8C14-136E34587895}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F6857325-8FAB-49A1-987A-E045706DE551} = {F6857325-8FAB-49A1-987A-E045706DE551}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|ARM = Debug|ARM
 		Debug|Win32 = Debug|Win32
 		Debug|x64 = Debug|x64
+		DebugDbg|ARM = DebugDbg|ARM
+		DebugDbg|Win32 = DebugDbg|Win32
+		DebugDbg|x64 = DebugDbg|x64
 		Release|ARM = Release|ARM
 		Release|Win32 = Release|Win32
 		Release|x64 = Release|x64
@@ -22,6 +28,12 @@ Global
 		{F6857325-8FAB-49A1-987A-E045706DE551}.Debug|Win32.Build.0 = Debug|Win32
 		{F6857325-8FAB-49A1-987A-E045706DE551}.Debug|x64.ActiveCfg = Debug|x64
 		{F6857325-8FAB-49A1-987A-E045706DE551}.Debug|x64.Build.0 = Debug|x64
+		{F6857325-8FAB-49A1-987A-E045706DE551}.DebugDbg|ARM.ActiveCfg = DebugDbg|ARM
+		{F6857325-8FAB-49A1-987A-E045706DE551}.DebugDbg|ARM.Build.0 = DebugDbg|ARM
+		{F6857325-8FAB-49A1-987A-E045706DE551}.DebugDbg|Win32.ActiveCfg = DebugDbg|Win32
+		{F6857325-8FAB-49A1-987A-E045706DE551}.DebugDbg|Win32.Build.0 = DebugDbg|Win32
+		{F6857325-8FAB-49A1-987A-E045706DE551}.DebugDbg|x64.ActiveCfg = DebugDbg|x64
+		{F6857325-8FAB-49A1-987A-E045706DE551}.DebugDbg|x64.Build.0 = DebugDbg|x64
 		{F6857325-8FAB-49A1-987A-E045706DE551}.Release|ARM.ActiveCfg = Release|ARM
 		{F6857325-8FAB-49A1-987A-E045706DE551}.Release|ARM.Build.0 = Release|ARM
 		{F6857325-8FAB-49A1-987A-E045706DE551}.Release|Win32.ActiveCfg = Release|Win32
@@ -34,6 +46,12 @@ Global
 		{A8BA27BA-7AB9-4B70-8C14-136E34587895}.Debug|Win32.Build.0 = Debug|Win32
 		{A8BA27BA-7AB9-4B70-8C14-136E34587895}.Debug|x64.ActiveCfg = Debug|x64
 		{A8BA27BA-7AB9-4B70-8C14-136E34587895}.Debug|x64.Build.0 = Debug|x64
+		{A8BA27BA-7AB9-4B70-8C14-136E34587895}.DebugDbg|ARM.ActiveCfg = DebugDbg|ARM
+		{A8BA27BA-7AB9-4B70-8C14-136E34587895}.DebugDbg|ARM.Build.0 = DebugDbg|ARM
+		{A8BA27BA-7AB9-4B70-8C14-136E34587895}.DebugDbg|Win32.ActiveCfg = DebugDbg|Win32
+		{A8BA27BA-7AB9-4B70-8C14-136E34587895}.DebugDbg|Win32.Build.0 = DebugDbg|Win32
+		{A8BA27BA-7AB9-4B70-8C14-136E34587895}.DebugDbg|x64.ActiveCfg = DebugDbg|x64
+		{A8BA27BA-7AB9-4B70-8C14-136E34587895}.DebugDbg|x64.Build.0 = DebugDbg|x64
 		{A8BA27BA-7AB9-4B70-8C14-136E34587895}.Release|ARM.ActiveCfg = Release|ARM
 		{A8BA27BA-7AB9-4B70-8C14-136E34587895}.Release|ARM.Build.0 = Release|ARM
 		{A8BA27BA-7AB9-4B70-8C14-136E34587895}.Release|Win32.ActiveCfg = Release|Win32

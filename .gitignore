@@ -3,6 +3,9 @@
 *.obj
 *.pro.user*
 .tmp/*
+.vs
+SeaBreeze.VC.VC.opendb
+SeaBreeze.VC.db
 VSProj/*
 VSProj/*/*
 VSProj/*/*/*
@@ -11,8 +14,15 @@ VSProj/*/*/*
 !VSProj/*.def
 !VSProj/*.cpp
 !VSProj/*.h
+SeeBreezeTest/*
+SeeBreezeTest/*/*
+SeeBreezeTest/*/*/*
+!SeeBreezeTest/*.vcxproj
+!SeeBreezeTest/*.vcxproj.filters
+!SeeBreezeTest/*.cpp
 .gitattributes
 .DS_Store
 .qmake.stash
 #include/.private/*.h
 #include/.private/*/*.h
+sys/*/.objects
